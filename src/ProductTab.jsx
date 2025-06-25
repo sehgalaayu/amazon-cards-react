@@ -4,12 +4,11 @@ function ProductTab() {
     let styles={
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "center",
     alignItems: "center",
     padding: "20px",
     borderRadius: "10px",
     margin: "20px auto",
-    maxWidth: "1200px",
     gap: "20px"
 
 

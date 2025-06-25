@@ -1,5 +1,6 @@
 // title and description
 import Price from "./Price.jsx";
+import "./Product.css";
 
 function Product({ title, idx }) {
   let oldPrice = ["12,495", "11,900", "1,599", "599"];
