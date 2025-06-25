@@ -1,0 +1,9 @@
+.ProductTab {
+  background: #f7f7f7;
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}

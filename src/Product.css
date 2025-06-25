@@ -1,6 +1,65 @@
-.Product{
-    border: 1px solid black;
-    border-radius: 14px;
-    padding: 10px;
-    margin: 10px;
+.Product {
+  background: radial-gradient(circle at 20% 20%, #d6eaff 0%, #b3e6ff 40%, #e6f4ff 100%);
+  border-radius: 20px;
+  border-top: 6px solid #ffd814;
+  border-left: 2px solid #ffd814;
+  border-right: 2px solid #ffd814;
+  border-bottom: none;
+  box-shadow: 0 4px 16px rgba(34, 34, 34, 0.13), 0 2px 8px rgba(0,0,0,0.07);
+  width: 270px;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 22px 18px 18px 18px;
+  margin: 0;
+}
+.Product h4, .Product > div:not(.Price) {
+  text-align: center;
+}
+.Product::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 18px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-top: 3px dotted #fff;
+  opacity: 1;
+  pointer-events: none;
+}
+.Product h4 {
+  margin: 0 0 12px 0;
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #232f3e;
+}
+.Product ul {
+  width: 100%;
+  padding-left: 22px;
+  margin: 0 0 0 0;
+  text-align: left;
+  color: #232f3e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.Product li {
+  margin-bottom: 4px;
+  list-style-type: disc;
+}
+.Product .sale-badge {
+  display: none;
+}
+
+/* Remove card margin, let container handle spacing */
+
+.Product p {
+  margin: 0 0 16px 0;
+  color: #565959;
+  font-size: 0.98rem;
 }
