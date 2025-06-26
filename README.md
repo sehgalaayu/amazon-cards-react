@@ -53,7 +53,7 @@ A modern React app showcasing Amazon-style product cards for blockbuster deals o
 
 ## Screenshot
 
-(./screenshot.png)
+![App Screenshot](./screenshot.png)
 
 > *Showcasing the responsive Amazon-style product cards in action.*
 
