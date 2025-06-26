@@ -26,8 +26,9 @@ A modern React app showcasing Amazon-style product cards for blockbuster deals o
 1. **Install dependencies:**
    ```bash
    npm install
-   ```
+
 2. **Start the development server:**
+
    ```bash
    npm run dev
    ```
@@ -35,18 +36,29 @@ A modern React app showcasing Amazon-style product cards for blockbuster deals o
    Visit [http://localhost:5173](http://localhost:5173) to view the app.
 
 ## Project Structure
-- `src/Product.jsx` – Product card component (edit product data/features here)
-- `src/Price.jsx` – Price bar component
-- `src/ProductTab.jsx` – Product grid/section
-- `src/Product.css`, `src/ProductTab.css` – Styling for cards and layout
+
+* `src/Product.jsx` – Product card component (edit product data/features here)
+* `src/Price.jsx` – Price bar component
+* `src/ProductTab.jsx` – Product grid/section
+* `src/Product.css`, `src/ProductTab.css` – Styling for cards and layout
 
 ## Customization
-- **Add/Edit Products:**
-  - Update the `title`, `features`, `oldPrice`, and `newPrice` arrays in `Product.jsx`.
-- **Change Styles:**
-  - Edit `Product.css` and `ProductTab.css` for card and layout styles.
+
+* **Add/Edit Products:**
+
+  * Update the `title`, `features`, `oldPrice`, and `newPrice` arrays in `Product.jsx`.
+* **Change Styles:**
+
+  * Edit `Product.css` and `ProductTab.css` for card and layout styles.
+
+## Screenshot
+
+(./screenshot.png)
+
+> *Showcasing the responsive Amazon-style product cards in action.*
 
 ## License
+
 This project is for educational/demo purposes and is not affiliated with Amazon.
 
----
+
